@@ -14,7 +14,7 @@
 
 int main()
 {
-    int a, rem, arm, temp;
+    int a, rem, arm=0, temp;
 
     printf("Enter a number: (ex: 153)\n");
     scanf("%d", &a);
@@ -34,8 +34,6 @@ int main()
     {
         printf("%d is not armstrong number.", a);
     }
-    
-    
     
     return 0;
 }
